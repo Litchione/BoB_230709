@@ -24,4 +24,4 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: python-artifact ${{ matrix.python-version }}
-        path: ${{ matrix.python-version }}.txt
+        path: py${{ matrix.python-version }}.txt
